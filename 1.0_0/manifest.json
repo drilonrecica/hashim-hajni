@@ -1,18 +1,18 @@
 {
    "browser_action": {
       "default_icon": "icon.png",
-      "default_title": "**** *****"
+      "default_title": "Hashim Hajni"
    },
    "content_scripts": [ {
       "js": [ "js/jquery/jquery.js", "content_script.js" ],
       "matches": [ "*://*/*" ],
       "run_at": "document_end"
    } ],
-   "description": "Removes images of ***** and replace his name with ******",
-   "author": "Alyssa Hursh",
+   "description": "Removes images of HTH and replace his name with HH",
+   "author": "Dev Eloper",
    "manifest_version": 2,
-   "name": "**** *****",
-   "short_name": "**** *****",
+   "name": "#HashimHajni",
+   "short_name": "#HashimHajni",
    "permissions": [ "http://*.google.com/", "http://*.com/", "tabs" ],
    "version": "1.0.3"
 } 
